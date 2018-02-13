@@ -1,0 +1,18 @@
+{
+    "name": "lybrnth/onedrive-cli",
+    "description": "A command line tool for working with Mircrosoft OneDrive",
+    "type": "library",
+    "homepage": "https://github.com/lybrnth/onedrive-cli",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "microsoft/microsoft-graph": "^1.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "OneDriveCLI\\": "src/",
+            "OneDriveAPI\\": "src/",
+            "ConfigCLI\\": "src/"
+        }
+    }
+}
